@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Organizador de Cursada</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="avisos.html">Avisos</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="materias.html">Materias 2025</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contacto</h1>
+
+    <form action="#" method="POST">
+      <div>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="asunto">Asunto:</label>
+        <select id="asunto" name="asunto" required>
+          <option value="">Seleccione un asunto</option>
+          <option value="consulta">Consulta académica</option>
+          <option value="trabajo">Propuesta de trabajo</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar mensaje</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Organizador de Cursada</p>
+  </footer>
+</body>
+
+</html>
